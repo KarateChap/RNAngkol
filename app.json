@@ -9,13 +9,23 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyC56o9e-thFitCOZd7yd-UN1DowV3x5I2I"
+      },
+      "bundleIdentifier": "com.moose0224.RNAngkol"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyC56o9e-thFitCOZd7yd-UN1DowV3x5I2I"
+        }
+      },
+      "package": "com.moose0224.RNAngkol"
     },
     "web": {
       "bundler": "metro",
@@ -23,19 +33,13 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      ["expo-router", {"origin": "https://angkol.com/"}]
+      [
+        "expo-router",
+        {
+          "origin": "https://angkol.com/"
+        }
+      ]
     ],
-    // [
-    //   "expo-router",
-    //   [
-    //     "expo-splash-screen",
-    //     {
-    //       "image": "./assets/images/splash.png",
-    //       "resizeMode": "contain",
-    //       "backgroundColor": "#ffffff"
-    //     }
-    //   ]
-    // ],
     "experiments": {
       "typedRoutes": true
     }
