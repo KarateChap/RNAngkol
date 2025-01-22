@@ -80,21 +80,21 @@ export const icons = {
 export const onboarding = [
     {
         id: 1,
-        title: "The perfect ride is just a tap away!",
+        title: "Your Fast Track to Every Destination!",
         description:
-            "Your journey begins with Ryde. Find your ideal ride effortlessly.",
+            "Your journey begins with Angkol. Find your ideal ride effortlessly.",
         image: images.onboarding1,
     },
     {
         id: 2,
-        title: "Best car in your hands with Ryde",
+        title: "Ride Smart, Ride Safe, Ride Now!",
         description:
-            "Discover the convenience of finding your perfect ride with Ryde",
+            "Discover the convenience of finding your perfect ride with Angkol",
         image: images.onboarding2,
     },
     {
         id: 3,
-        title: "Your ride, your way. Let's go!",
+        title: "Where Your Journey Begins",
         description:
             "Enter your destination, sit back, and let us take care of the rest.",
         image: images.onboarding3,
