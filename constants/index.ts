@@ -31,7 +31,9 @@ import onboarding1 from "@/assets/images/onboarding1.png";
 import onboarding2 from "@/assets/images/onboarding2.png";
 import onboarding3 from "@/assets/images/onboarding3.png";
 import signUpCar from "@/assets/images/signup-car.png";
-import markerTwo from "@/assets/icons/marker-two.png"
+import markerTwo from "@/assets/icons/marker-two.png";
+import selectedMarkerTwo from "@/assets/icons/selected-marker-two.png";
+import PinTwo from "@/assets/icons/pin-two.png"
 
 export const images = {
     onboarding1,
@@ -67,10 +69,12 @@ export const icons = {
     profile,
     search,
     selectedMarker,
+    selectedMarkerTwo,
     star,
     target,
     to,
-    markerTwo
+    markerTwo,
+    PinTwo
 };
 
 export const onboarding = [
